@@ -10,9 +10,9 @@ class Php55Pinba < AbstractPhp55Extension
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "dd5a7df7ab2a79b75eb368bf8ff46e55f394b2eac8523a3af05eb11ee286748f" => :yosemite
-    sha256 "bfd692ac1374c80f04de63c843b79dd9fb50d2ff444da6c6dfd27bd8bb4c6b25" => :mavericks
-    sha256 "6cabe56cc31318fce81c9a35b69438d4cb186d5a25a727bffcdcad72f3f6bb8c" => :mountain_lion
+    sha256 "1c17646ab09ce26e0d71a8121e84df99b622e1a66b8f8dc54def03c3d6c878ef" => :yosemite
+    sha256 "42435bdc31942a608424faa0adcff39c628c5a431d1658c691c8dddc3fb38596" => :mavericks
+    sha256 "070924963db6e1ee89a1a7c8f83671950ae84803c6b805d85339a905c9a3e83f" => :mountain_lion
   end
 
   def install
