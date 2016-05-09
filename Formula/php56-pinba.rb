@@ -7,6 +7,7 @@ class Php56Pinba < AbstractPhp56Extension
   url "https://github.com/tony2001/pinba_extension/archive/7e7cd25ebcd74234f058bfe350128238383c6b96.tar.gz"
   sha256 "bed4ffc980f407a433e0fcf8f2309537f7914d6d33349a1ea1ce14ab37127462"
   head "https://github.com/tony2001/pinba_extension.git"
+  version "1.1.0-dev.7e7cd25"
 
   bottle do
     cellar :any_skip_relocation
